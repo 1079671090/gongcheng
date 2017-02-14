@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/a1"
+        android:background="@mipmap/title_background" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/ic_menu_edit"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv1"
+        android:background="@mipmap/et_content_bg" />
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="330dp"
+        android:layout_height="530dp"
+        android:background="@null"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text=""
+        android:gravity="top" />
+    <TextView
+        android:id="@+id/xin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新建便签"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="7dp"/>
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent1"
+        />
+
+
+</RelativeLayout>
